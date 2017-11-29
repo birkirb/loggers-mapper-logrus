@@ -3,7 +3,7 @@ package logrus
 import (
 	"fmt"
 
-	"github.com/Sirupsen/logrus"
+	"github.com/sirupsen/logrus"
 	"gopkg.in/birkirb/loggers.v1"
 )
 
