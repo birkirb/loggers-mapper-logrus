@@ -1,5 +1,5 @@
 # loggers-mapper-logrus
-Golang [Loggers](https://gopkg.in/birkirb/loggers.v1) mapper for [Logrus](https://github.com/Sirupsen/logrus).
+Golang [Loggers](https://gopkg.in/birkirb/loggers.v1) mapper for [Logrus](https://github.com/sirupsen/logrus).
 
 [![GoDoc](https://godoc.org/github.com/birkirb/loggers-mapper-logrus?status.svg)](https://godoc.org/github.com/birkirb/loggers-mapper-logrus)
 [![Build Status](https://travis-ci.org/birkirb/loggers-mapper-logrus.svg?branch=master)](http://travis-ci.org/birkirb/loggers-mapper-logrus)
@@ -24,9 +24,9 @@ package main
 import (
 	"os"
 
-	"github.com/Sirupsen/logrus"
-    "gopkg.in/birkirb/loggers.v1"
-    mapper "github.com/birkirb/loggers-mapper-logrus/"
+	"github.com/sirupsen/logrus"
+        "gopkg.in/birkirb/loggers.v1"
+        mapper "github.com/birkirb/loggers-mapper-logrus/"
 )
 
 // Log is my default logger.
